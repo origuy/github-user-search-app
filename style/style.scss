@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+/* Colors */
+/* / Light Mode / */
+
+$lightModeVividBlue: #0079ff;
+$lightModeGray: #697c9a;
+$lightModeDarkBlue: #4b6a9b;
+$lightModeBlack: #2b3442;
+$lightModeLightGray: #f6f8ff;
+$lightModeWhite: #fefefe;
+
+/* / Dark Mode / */
+
+$darkModeGray: #697c9a;
+$darkModeWhite: #fff;
+$darkModeDarkBlue: #1e2a47;
+$darkModeBlack: #141d2f;
+
+/* Typography */ 
+
+$fontFamily: 'Space Mono', monospace;
+$fontSizeH1: 2.6rem;
+$fontWeightH1: bold;
+$lineHeightH1: 3.8rem;
+$fontSizeH2: 2.2rem;
+$fontWeightH2: bold;
+$lineHeightH2: 3.3rem;
+$fontSizeH3: 1.6rem;
+$lineHeightH3: 2.4rem;
+$fontSizeH4: 1.3rem;
+$lineHeightH4: 2rem;
+$fontSizeBody: 1.5rem;
+$lineHeightBody: 2.5rem;
+
+/* Buttons */
+/*/ Light Mode & Dark Mode /*/
+$btnBgColor: $lightModeVividBlue;
+$btnHoverBgColor: #60ABFF;
+$btnFontColor:$lightModeWhite;
+
+/* Toggler */
+/*/ Light Mode /*/
+$lightToggleColor: $lightModeDarkBlue;
+$lightHoverToggleColor: $lightModeBlack;
+/*/ Dark Mode /*/
+$darkToggleColor: $darkModeWhite;
+$darkHoverToggleColor: $darkModeGray;
+
+/* Link */
+/*/ Light Mode /*/
+$lightLinkColor: $lightModeDarkBlue;
+$lightHoverLinkColor: $lightModeDarkBlue;
+$lightHoverLinkUnavailable: $lightModeLightGray;
+/*/ Dark Mode /*/
+$darkHoverLinkColor: $darkModeWhite;
+$darkLinkColor: $darkModeWhite;
+$darkHoverLinkUnavailable: $darkModeDarkBlue;
+
+/* Mobile */

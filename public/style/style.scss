@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 /* Colors */
 /* / Light Mode / */
 
@@ -16,9 +16,9 @@ $darkModeWhite: #fff;
 $darkModeDarkBlue: #1e2a47;
 $darkModeBlack: #141d2f;
 
-/* Typography */ 
+/* Typography */
 
-$fontFamily: 'Space Mono', monospace;
+$fontFamily: "Space Mono", monospace;
 $fontSizeH1: 2.6rem;
 $fontWeightH1: bold;
 $lineHeightH1: 3.8rem;
@@ -35,8 +35,8 @@ $lineHeightBody: 2.5rem;
 /* Buttons */
 /*/ Light Mode & Dark Mode /*/
 $btnBgColor: $lightModeVividBlue;
-$btnHoverBgColor: #60ABFF;
-$btnFontColor:$lightModeWhite;
+$btnHoverBgColor: #60abff;
+$btnFontColor: $lightModeWhite;
 
 /* Toggler */
 /*/ Light Mode /*/
@@ -56,4 +56,175 @@ $darkHoverLinkColor: $darkModeWhite;
 $darkLinkColor: $darkModeWhite;
 $darkHoverLinkUnavailable: $darkModeDarkBlue;
 
+/* Elements Variables */
+// headerContainer
+$headerContainerMadding: 3.1rem 2.4rem 3.6rem 2.4rem;
+$headerContainerWidth: 32.7rem;
+$headerContainerHeight: 3.8rem;
+$darkLightModeFontSize: 1.3rem;
+$darkLightModeLetterSpacing: 0.25rem;
+$darkLightModeFontWeight: 700;
+$darkLightModeMarginRight: 1.6rem;
+$toggleImgWidth: 2rem;
+$toggleImgHeight: 2rem;
+$toggleContainerWidth: 8.9rem;
+$toggleContainerHeight: 2rem;
+
+//searchContainer
+$searchContainerWidth:32.7rem;
+$searchContainerHeight:6rem;
+$searchContainerMarginSide:2.4rem;
+$searchContainerPaddingLeft:1.6rem;
+$searchContainerBorderRadius:1.5rem;
+$searchContainerBgColor:$darkModeDarkBlue;
+$searchInputHeight:4.6rem;
+$searchInputPlaceHolderPaddingLeft:0.9rem;
+$searchInputTextIndent:3.9rem;
+$searchInputPlaceHolderFontColor:$darkModeWhite;
+$searchInputPlaceHolderFontSize:1.3rem;
+$searchInputWidth:100%;
+$searchBtnWidth:12rem;
+$searchBtnCorderRadius:1rem;
+$searchBtnHeight:4.6rem;
+$searchBtnFontWeight:700;
+$searchBtnMarginRight:0.7rem;
+$searchBtnBgColor:$lightModeVividBlue;
+$searchBtnFontColor:$darkModeWhite;
+$searchFontSize:1.4rem;
+
 /* Mobile */
+
+html {
+	font-size: 10px;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: $darkModeBlack;
+	color: $darkModeWhite;
+	font-family: $fontFamily;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 98vh;
+}
+#headerContainer {
+	margin: $headerContainerMadding;
+	width: $headerContainerWidth;
+	height: $headerContainerHeight;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	#logo {
+		font-size: $fontSizeH1;
+		line-height: $lineHeightH1;
+		font-weight: $fontWeightH1;
+	}
+	#toggeler {
+		width: $toggleContainerWidth;
+		height: $toggleContainerHeight;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+		#darkLightMode {
+			font-size: $darkLightModeFontSize;
+			font-weight: $darkLightModeFontWeight;
+			margin-right: $darkLightModeMarginRight;
+			display: inline-block;
+			text-transform: uppercase;
+            letter-spacing: $darkLightModeLetterSpacing;
+		}
+		#toggleImg {
+			width: $toggleImgWidth;
+			height: $toggleImgHeight;
+			color: $darkToggleColor;
+		}
+	}
+}
+#searchContainer{
+   width:$searchContainerWidth;height:$searchContainerHeight;
+   padding-left: $searchContainerPaddingLeft;
+   background-color: $searchContainerBgColor;
+   position: relative;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: $searchContainerMarginSide;
+   margin-right: $searchContainerMarginSide;
+   border-radius: $searchContainerBorderRadius;
+
+    #input{
+        height: $searchInputHeight;
+        width: $searchInputWidth;
+        border: none;
+        background-color: transparent;
+        text-indent: $searchInputTextIndent;
+        color: $searchInputPlaceHolderFontColor;
+    }
+    #input::placeholder{
+        color: $searchInputPlaceHolderFontColor;
+        position: relative;
+        font-size: $searchInputPlaceHolderFontSize;
+    }
+    #input:focus{
+       outline: none;
+    }
+
+   #searchBtn{
+    width: $searchBtnWidth;
+    height: $searchBtnHeight;
+    background-color:$searchBtnBgColor;
+    color:$searchBtnFontColor ;
+    border-radius: $searchBtnCorderRadius;
+    margin-right: $searchBtnMarginRight;
+    border: none;
+    font-weight: $searchBtnFontWeight;
+   }
+   #searchIcon{
+       position: absolute;
+
+   }
+}
+#dataContainer{
+    //dataContainer
+    $dataContainerWidth:32.7rem;
+    $dataContainerHeight:51.7rem;
+    $dataContainerBgColor:$darkModeDarkBlue;
+    $dataContainerBorderRadius:1.5rem;
+    $dataContainerMarginTop:1.6rem;
+    $profileImgWidth:7rem;
+    $profileImgHeight:7rem;
+    $profileImgBorderRadius:50%;
+    $profileImgMarginLeft:1.95rem;
+    $basicUserInfoMarginTop:3.2rem;
+
+
+    width: $dataContainerWidth;
+    height: $dataContainerHeight;
+    background-color:$dataContainerBgColor;
+    border-radius: $dataContainerBorderRadius;
+    margin-top:  $dataContainerMarginTop;
+
+    #basicUserInfo{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        margin-left:$basicUserInfoMarginTop;
+        margin-top:$profileImgMarginTop;
+    }
+    #profileImg{
+        width:$profileImgWidth;
+        height: $profileImgHeight;
+        border-radius: $profileImgBorderRadius;
+        margin-right: $profileImgMarginLeft;
+        
+    }
+}

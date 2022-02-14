@@ -11,23 +11,24 @@
 	</head>
 	<body>
 		<header id="headerContainer">
-			<div id="logo">&#60; gitFinder &#47;&#62;</div>
+			<div id="logo">gitFinder</div>
 			<div id="toggeler">
 				<span id="darkLightMode">Light</span>
-				<img src="images/svg/icon-sun.svg" alt="sun/moon logo for toggler" />
+				<img id="toggleImg" src="images/svg/icon-sun.svg" alt="sun/moon logo for toggler" />
 			</div>
 		</header>
 
 		<section id="searchContainer">
-			<input type="search" placeholder="Search GitHub Username..." /><img
+			<img id="searchIcon"
 				src="images/svg/icon-search.svg"
 				alt="search icon"
-			/><button type="button">Search</button>
+			/>
+			<input id="input" type="search" placeholder="Search GitHub Username..." /><button id="searchBtn" type="button">Search</button>
 		</section>
 
 		<section id="dataContainer">
 			<div id="basicUserInfo">
-				<img src="#" alt="profile pic" />
+				<img id="profileImg" src="images/profile.jpg" alt="profile pic" />
 				<div id="userDetails">
 					<h2>The Octocat</h2>
 					<h3>@octocat</h3>

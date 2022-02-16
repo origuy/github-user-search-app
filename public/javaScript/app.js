@@ -45,6 +45,11 @@ searchBtnGrabber.addEventListener('click',() => {
     getData(url);
 
 })
+inputGrabber.addEventListener('focusin',() => {
+    notFoundGrabber.style.display = 'none';
+    inputGrabber.value = '';
+})
+
 
 async function getData(url){
     const res = await fetch(url);
@@ -59,6 +64,7 @@ async function getData(url){
     }else if(data.message === 'Not Found'){
         notFoundGrabber.style.display = 'inline';
     }else{
+        notFoundGrabber.style.display = 'none';
         profileImgGrabber.setAttribute('src',data.avatar_url);
         firstGrabber.innerHTML =  data.name; 
         firstGrabber.innerHTML = (data.name) === null || (data.name) === '' ? 'Not Available' : data.name; 

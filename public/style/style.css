@@ -35,8 +35,8 @@ html {
 
 body {
   background-color: #141d2f;
-  -webkit-transition: background-color 1s ease;
-  transition: background-color 1s ease;
+  -webkit-transition: background-color 0.75s linear;
+  transition: background-color 0.75s linear;
   color: #fff;
   font-family: "Space Mono", monospace;
   display: -webkit-box;
@@ -399,8 +399,8 @@ body {
   }
   body {
     background-color: #141d2f;
-    -webkit-transition: background-color 1s ease;
-    transition: background-color 1s ease;
+    -webkit-transition: background-color 0.75s linear;
+    transition: background-color 0.75s linear;
     color: #fff;
     font-family: "Space Mono", monospace;
     display: -webkit-box;
@@ -731,8 +731,8 @@ body {
   }
   body {
     background-color: #141d2f;
-    -webkit-transition: background-color 1s ease;
-    transition: background-color 1s ease;
+    -webkit-transition: background-color 0.75s linear;
+    transition: background-color 0.75s linear;
     color: #fff;
     font-family: "Space Mono", monospace;
     display: -webkit-box;

@@ -148,7 +148,7 @@ html {
 
 body {
 	background-color: $lightModeLightGray;
-	transition: background-color 1s ease;
+	transition: background-color 0.75s linear;
 	color: $lightModeGray;
 	font-family: $fontFamily;
 	display: flex;
@@ -455,7 +455,7 @@ body {
 	}
 	body {
 		background-color: $lightModeLightGray;
-		transition: background-color 1s ease;
+		transition: background-color 0.75s linear;
 
 		color: $lightModeGray;
 		font-family: $fontFamily;
@@ -779,7 +779,7 @@ body {
 	}
 	body {
 		background-color: $lightModeLightGray;
-		transition: background-color 1s ease;
+		transition: background-color 0.75s linear;
 
 		color: $lightModeGray;
 		font-family: $fontFamily;

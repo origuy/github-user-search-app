@@ -148,7 +148,7 @@ html {
 body {
 	background-color: $darkModeBlack;
 
-	transition: background-color 1s ease;
+	transition: background-color 0.75s linear;
 
 	color: $darkModeWhite;
 	font-family: $fontFamily;
@@ -457,7 +457,7 @@ body {
 	}
 	body {
 		background-color: $darkModeBlack;
-		transition: background-color 1s ease;
+		transition: background-color 0.75s linear;
 
 		color: $darkModeWhite;
 		font-family: $fontFamily;
@@ -772,7 +772,7 @@ body {
 	}
 	body {
 		background-color: $darkModeBlack;
-		transition: background-color 1s ease;
+		transition: background-color 0.75s linear;
 
 		color: $darkModeWhite;
 		font-family: $fontFamily;

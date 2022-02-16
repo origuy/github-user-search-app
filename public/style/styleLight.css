@@ -35,8 +35,8 @@ html {
 
 body {
   background-color: #f6f8ff;
-  -webkit-transition: background-color 1s ease;
-  transition: background-color 1s ease;
+  -webkit-transition: background-color 0.75s linear;
+  transition: background-color 0.75s linear;
   color: #697c9a;
   font-family: "Space Mono", monospace;
   display: -webkit-box;
@@ -393,8 +393,8 @@ body {
   }
   body {
     background-color: #f6f8ff;
-    -webkit-transition: background-color 1s ease;
-    transition: background-color 1s ease;
+    -webkit-transition: background-color 0.75s linear;
+    transition: background-color 0.75s linear;
     color: #697c9a;
     font-family: "Space Mono", monospace;
     display: -webkit-box;
@@ -733,8 +733,8 @@ body {
   }
   body {
     background-color: #f6f8ff;
-    -webkit-transition: background-color 1s ease;
-    transition: background-color 1s ease;
+    -webkit-transition: background-color 0.75s linear;
+    transition: background-color 0.75s linear;
     color: #697c9a;
     font-family: "Space Mono", monospace;
     display: -webkit-box;

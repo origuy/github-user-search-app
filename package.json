@@ -19,6 +19,7 @@
   "homepage": "https://github.com/origuy/github-user-search-app#readme",
   "dependencies": {
     "body-parser": "^1.19.1",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "request": "^2.88.2"
   }
 }

@@ -38,7 +38,7 @@ Users should be able to and development challenge :
 
 ### Screenshot
 
-![screenshot of the website](public\images\READMEPhoto.jpg)
+![screenshot of the website](/images\READMEPhoto.jpg)
 
 ### Links
 

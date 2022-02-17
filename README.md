@@ -2,7 +2,6 @@
 
 gitFinder is a web application to search GitHub users and show information about the selected user.
 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -42,7 +41,7 @@ Users should be able to and development challenge :
 
 ### Links
 
-- Live Site URL: [ Click to See the Site](https://gitfinderapp.herokuapp.com/)
+- Live Site URL: [Click to See the Site](https://gitfinderapp.herokuapp.com/)
 
 ## My process
 

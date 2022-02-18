@@ -36,6 +36,7 @@ toggleGrabber.addEventListener("click",() => {
         darkLightModeTextGrabber.innerHTML = 'Light';
         isDarkFlag = true;
     }
+    navigator.vibrate([500,0,500]);
 });
 inputGrabber.addEventListener('keyup', () => {
     searchValue = inputGrabber.value;
